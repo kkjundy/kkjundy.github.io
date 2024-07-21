@@ -1,14 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>dhsa(runoob.com)</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creep Town - Minecraft Server</title>
+    <!-- 引入Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- 引入自定义样式 -->
+    <style>
+        body { background-color: #282c34; color: white; }
+        .navbar { background-color: #212529; }
+        .jumbotron { background-color: #343a40; }
+    </style>
 </head>
 <body>
- 
-<h1>creep的服务器</h1>
- 
-<p>测试网站，具体请进qq群：136211613</p>
- 
+    <!-- 导航栏 -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Creep Town</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#players">Players</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#news">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主体内容 -->
+    <div class="container mt-5">
+        <!-- 服务器介绍 -->
+        <div class="jumbotron">
+            <h1>Welcome to Creep Town!</h1>
+            <p class="lead">Join us on our Minecraft server for a unique and exciting experience.</p>
+        </div>
+
+        <!-- 玩家列表 -->
+        <div id="players" class="mt-5">
+            <h2>Current Players</h2>
+            <p>Here are some of the players currently online:</p>
+            <ul>
+                <li>Player1</li>
+                <li>Player2</li>
+                <li>Player3</li>
+            </ul>
+        </div>
+
+        <!-- 新闻公告 -->
+        <div id="news" class="mt-5">
+            <h2>Latest News</h2>
+            <p>Check out the latest updates and news about Creep Town:</p>
+            <ul>
+                <li>News Item 1</li>
+                <li>News Item 2</li>
+                <li>News Item 3</li>
+            </ul>
+        </div>
+
+        <!-- 联系信息 -->
+        <div id="contact" class="mt-5">
+            <h2>Contact Us</h2>
+            <p>For any questions or support, please contact us at:</p>
+            <p>Email: info@creep-town.com</p>
+            <p>Discord: CreepTown#1234</p>
+        </div>
+    </div>
+
+    <!-- 引入Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
